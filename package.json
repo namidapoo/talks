@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "build": "pnpm -r build",
+    "export": "pnpm -r export",
+    "export:pptx": "pnpm -r export:pptx",
     "deploy": "pnpm build && wrangler pages deploy dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "playwright-chromium": "^1.49.0",
     "wrangler": "^3.90.0"
   }
 }
