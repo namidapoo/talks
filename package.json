@@ -4,9 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "pnpm -r build"
+    "build": "pnpm -r build",
+    "deploy": "pnpm build && wrangler pages deploy dist"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "wrangler": "^3.90.0"
+  }
 }
