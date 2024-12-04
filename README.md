@@ -16,7 +16,7 @@ pnpm create slidev@latest
 
    This will automatically install dependencies and start the new Slidev project.
 
-5. If you answer `yes` to the above question, you might see a warning:
+3. If you answer `yes` to the above question, you might see a warning:
 
 ```sh
 will be removed and reinstalled from scratch. Proceed?
