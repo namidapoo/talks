@@ -7,13 +7,15 @@
     "build": "pnpm -r build",
     "export": "pnpm -r export",
     "export:pptx": "pnpm -r export:pptx",
-    "deploy": "pnpm build && wrangler pages deploy dist"
+    "deploy": "pnpm build && wrangler pages deploy dist",
+    "format": "prettier --write ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "playwright-chromium": "^1.49.0",
+    "prettier": "^3.4.2",
     "wrangler": "^3.90.0"
   }
 }
